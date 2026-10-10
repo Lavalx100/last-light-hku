@@ -1,6 +1,6 @@
 # Credits and third-party license notes
 
-The project report identifies Jad Khiami as the author of the game. The MIT license in this repository applies to the original game source only. All third-party works below remain under their listed licenses or publisher terms.
+The supplied project report identifies Jad Khiami as the author of the game. This repository's MIT license applies to the original game source only. All third-party works below remain under their listed licenses or publisher terms.
 
 ## Included audio
 
@@ -21,7 +21,7 @@ These audio files are retained in `LastLightHKU/Assets/Audio` and are attributed
 
 ## Unity Asset Store dependencies omitted from this source copy
 
-The original project included the following packs. Their files have been removed from this public repository because the standard Unity Asset Store EULA permits redistribution only as embedded components of a finished product, not as exposed source assets. Obtain each pack directly from the Unity Asset Store under your own license before using it.
+The original project included the following packs. Their source files are omitted from this public repository. The public scene and build use simple original placeholders for the missing tree and spotlight prefab instances. Obtain each pack directly from the Unity Asset Store under your own license before using it.
 
 - Ada_King, **Free Trees** (2017).
 - lowpoly89, **Stylized Door** (2025).
@@ -29,10 +29,14 @@ The original project included the following packs. Their files have been removed
 - Underhill Labz, **Arcade Machine Free** (2017).
 - Wello Soft, **10 Skyboxes Pack: Day – Night** (2016).
 
+Product pages: [Free Trees](https://assetstore.unity.com/packages/3d/vegetation/trees/free-trees-103208), [Stylized door](https://assetstore.unity.com/packages/3d/props/interior/stylized-door-345072), [Spotlight and Structure](https://assetstore.unity.com/packages/3d/props/interior/spotlight-and-structure-141453), [Arcade Machine Free](https://assetstore.unity.com/packages/3d/arcade-machine-free-92191), and [10 Skyboxes Pack: Day – Night](https://assetstore.unity.com/packages/2d/textures-materials/sky/10-skyboxes-pack-day-night-32236).
+
 See the [Unity Asset Store EULA](https://unity.com/legal/as-terms) and [EULA FAQ](https://assetstore.unity.com/browse/eula-faq).
 
 ## Other omitted visual files
 
-The submitted Unity project contains high-resolution 3D scans and texture images of HKU-branded merchandise. Those scan and texture files are omitted while their redistribution rights are unverified. The original submission report does not identify the source or license for those files. Replace them with assets you created or have permission to redistribute before publishing a playable build.
+The submitted Unity project contains high-resolution 3D scans and texture images of HKU-branded merchandise. Those scan and texture files are omitted while their redistribution rights are unverified. The original submission report does not identify the source or license for those files. Use assets you created or have permission to redistribute if you want to restore their original appearance.
+
+The public playable build uses generic, original primitive shapes for the six collectible pickup models so that their in-game interactions remain accessible without distributing the scans.
 
 Unity TextMesh Pro and other Unity packages remain governed by their Unity package terms. Their files are not relicensed by the repository's MIT license.
